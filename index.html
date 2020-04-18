@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="icon" href="img/logo.png">
+	<script src="vanilla js/main.js"></script>
+	<title>MY SIMPLE CALCULATOR</title>
+</head>
+<body>
+	<div id="container">
+		<div id="head">MY SIMPLE CALCULATOR</div>
+		<div id="screen">
+			<div id="numbersDisplay"><span>0</span></div>
+		</div>
+		<div id="clearAndDeleteButtons">
+			<input type="button" name="clear" value="Clear" onclick="clearAndDeleteFunction(this.name)"/>
+			<input type="button" name="delete" value="Delete" onclick="clearAndDeleteFunction(this.name)"/>			
+		</div>
+		<div id="keyPads">
+			<input type="button" name="1" value="1" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="2" value="2" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="3" value="3" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="+" value="+" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="4" value="4" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="5" value="5" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="6" value="6" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="-" value="-" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="7" value="7" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="8" value="8" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="9" value="9" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="x" value="x" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="." value="." onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="0" value="0" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="=" value="=" onclick="otherButtonsFunction(this.name)"/>
+			<input type="button" name="/" value="/" onclick="otherButtonsFunction(this.name)"/>
+		</div>
+	</div>
+</body>
+</html>

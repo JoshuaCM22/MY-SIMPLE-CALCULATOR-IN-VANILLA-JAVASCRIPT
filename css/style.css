@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #283d6d;
+}
+
+#head {
+  width: 300px;
+  text-align: center;
+  font: bold normal 20px Arial;
+  margin: 0px auto;
+  color: #000;
+}
+
+#container {
+  height: 406px;
+  width: 350px;
+  margin: 40px auto;
+  background-color: #D4AC0D;
+  border: 3px solid #fff;
+  border-radius: 17px;
+  padding: 40px 30px;
+}
+
+#screen {
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+  padding: 16px 10px;
+  border: 1px solid #283d6d;
+  border-radius: 11px;
+  background-color: antiquewhite;
+}
+
+#numbersDisplay {
+  height: 42px;
+  text-align: left;
+  font: normal normal 43px Arial;
+}
+
+#numbersDisplay span {
+  opacity: 0.5;
+}
+
+#keyPads {
+  width: 290px;
+  height: 206px;
+  border: 1px dotted #27b04a;
+  border-radius: 14px;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+}
+
+input {
+  height: 47px;
+  width: 65px;
+  margin: 2px;
+  padding: 4px;
+  border-radius: 10px;
+  font: bold normal 30px Verdana;
+}
+
+input:hover {
+  background-color: silver;
+}
+
+#clearAndDeleteButtons {
+  height: 50px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clearAndDeleteButtons input {
+  width: 143px;
+  font-size: 20px;
+}
